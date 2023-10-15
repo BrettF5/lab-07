@@ -16,16 +16,16 @@ function getLocation(){
  }
 
 
- function locationMessage(userFrom){
-    if(userFrom ''){
+ function locationMessage(userFromCity){
+    if(userFromCity ''){
         userFrom = prompt('Please tell me where your from if you want to');
     }
 
-    if(userFrom === 'Seattle'){
+    if(userFromCity === 'Seattle'){
         document.write("Welcome Seattle Mariner Fan!!!");
-    } else if (userFrom === 'New York'){
+    } else if (userFromCity === 'New York'){
         document.write('Welcome New York Yankee Fan!!!');
-    } else if (userFrom === 'Boston'){
+    } else if (userFromCity === 'Boston'){
         document.write('Welcome Boston Red Sox Fan!!! Sorry for a bad season...') ;    
     } else {
         document.write('Sorry, do not have a message for your location. Please enter Seattle, New York or Boston for a different resoonse.');
