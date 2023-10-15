@@ -11,7 +11,7 @@
 // }
 
 function getLocation(){
-    let = userFrom('Where are you from?');
+    let userFrom = prompt('Where are you from?');
     return userFrom
  }
 
