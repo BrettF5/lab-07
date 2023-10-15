@@ -4,13 +4,15 @@
 <head>
     <title>Baseball Cards</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    <!-- <script src="app.js"></script> -->
 </head>
 
 <body>
+    <script src="app.js"></script>
     <header>
         <script>
             let theirLocation = getLocation();
+            locationCheck(userFrom);
         </script>
         <h1> Baseball Card Shop</h1>
         <nav>
@@ -27,7 +29,7 @@
 
     <main>
         <script>
-           locationMessage(theirLocation);
+           whatLocation(theirLocation);
         </script>
 
     <p>
